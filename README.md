@@ -1,3 +1,6 @@
+Thanks for the TFT Library from Gavin Lyons!
+[https://github.com/gavinlyonsrepo/ST7735_TFT_PICO](https://github.com/gavinlyonsrepo/ST7735_TFT_PICO)
+
 Hardware
 ----------------------
 
