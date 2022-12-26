@@ -1,4 +1,4 @@
-Thanks for the TFT Library from Gavin Lyons!
+This is an example of a TFT LCD display on a Raspberry Pico. Thanks for the TFT Library from Gavin Lyons!
 
 #### [https://github.com/gavinlyonsrepo/ST7735_TFT_PICO](https://github.com/gavinlyonsrepo/ST7735_TFT_PICO)
 
