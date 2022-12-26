@@ -1,7 +1,9 @@
 Thanks for the TFT Library from Gavin Lyons!
-[https://github.com/gavinlyonsrepo/ST7735_TFT_PICO](https://github.com/gavinlyonsrepo/ST7735_TFT_PICO)
 
-Hardware
+#### [https://github.com/gavinlyonsrepo/ST7735_TFT_PICO](https://github.com/gavinlyonsrepo/ST7735_TFT_PICO)
+
+## Hardware
+#### [https://www.az-delivery.de/collections/displays/products/1-77-zoll-spi-tft-display](https://www.az-delivery.de/collections/displays/products/1-77-zoll-spi-tft-display)
 ----------------------
 
 Connections as setup in main.cpp helloworld test file.
