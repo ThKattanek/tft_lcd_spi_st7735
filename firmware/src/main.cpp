@@ -8,6 +8,7 @@
 
 #include "pico/time.h"
 #include "hardware/spi.h"
+#include "hardware/gpio.h"
 #include "st7735/ST7735_TFT.hpp"
 
 void Setup(ST7735_TFT *tft)
@@ -37,9 +38,9 @@ void Setup(ST7735_TFT *tft)
 // ****** USER OPTION 2 Screen Setup ******
 	uint8_t OFFSET_COL = 0;  // 2, These offsets can be adjusted for any issues->
 	uint8_t OFFSET_ROW = 0; // 3, with screen manufacture tolerance/defects
-	uint16_t TFT_WIDTH = 128;// Screen width in pixels
-	uint16_t TFT_HEIGHT = 160; // Screen height in pixels
-	tft->TFTInitScreenSize(OFFSET_COL, OFFSET_ROW , TFT_WIDTH , TFT_HEIGHT);
+    uint16_t TFT_WIDTH = 128;// Screen width in pixels
+    uint16_t TFT_HEIGHT = 160; // Screen height in pixels
+    tft->TFTInitScreenSize(OFFSET_COL, OFFSET_ROW , TFT_WIDTH , TFT_HEIGHT);
 
 // ******** USER OPTION 3 PCB_TYPE  **************************
 	tft->TFTInitPCBType(TFT_PCBtype_e::TFT_ST7735S_Black); // pass enum,4 choices,see README
@@ -65,7 +66,7 @@ tft.setTextColor(rand() % 0x10000);
 
 		tft.print("Hello World!");
 
-		sleep_ms(40);
+        sleep_ms(40);
 	}
 
 	return 0;

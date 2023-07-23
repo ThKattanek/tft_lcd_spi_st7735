@@ -27,4 +27,5 @@ Connections as setup in main.cpp helloworld test file.
 5. Backlight on/off control is left to user.
 
 ## Pictures
-![pic01](breadboard_construction.jpg)
+![pic01](doc/breadboard_fritzing_without_picoprobe.png)
+![pic02](doc/breadboard_construction_with_picoprobe.jpg)
